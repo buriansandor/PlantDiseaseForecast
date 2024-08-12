@@ -1,0 +1,49 @@
+#API_key_form{
+    padding-top: 20%;
+}
+
+#location{
+    text-align: center;
+    font-family: Monospace,Sans-serif;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-bottom: 5%;
+
+    border-radius: 25px;
+    border: 5px solid rgb(15, 105, 34);
+    box-shadow: 2px 5px #dfdcdc;
+}
+
+#disclaimer{
+    padding-top: 5%;
+}
+
+#menuopen{
+    border-radius: 5px;
+}
+
+.week_forecast{
+}
+
+#place{
+    font-style: italic;
+    font-size: 150%;
+}
+
+#timezonetitle{
+    font-size: 350%;
+}
+
+#disclaimer img{
+    max-width: 10%;
+    max-height: auto;
+}
+
+#weatheralerts{
+    border-radius: 10px;
+}
+#weatheralerts h5{
+    font-style: bold;
+    color: rgb(255, 99, 71);
+    text-shadow: 1px 1px rgba(255, 99, 71, 0.534);
+}

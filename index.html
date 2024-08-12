@@ -1,0 +1,119 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Disease Forecast</title>
+    <link rel="icon" type="image/x-icon" href="css/icon.jpeg">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="Foundation-Sites-CSS/css/foundation.css">
+    <link rel="stylesheet" href="Foundation-Sites-CSS/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+    
+    <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+        <!-- Close button -->
+        <button class="close-button" aria-label="Close menu" type="button" data-close>
+          <span aria-hidden="true">&times;</span>
+        </button>
+        
+            <form id="API_key_form">
+                <label>Open Weather API key:
+                    <input id="APIKEY" type="text" placeholder="example: a123bc456def798" aria-describedby="exampleHelpText">
+                  </label>
+                  <p class="help-text" id="exampleHelpText">This is requred to get the weather data! To get the API key, please visit the <a href="openweathermap.org">openweathermap.org</a> and with the free registration get the API key!</p>
+                  <input type="submit" class="button" value="Save" id="saveAPIKEY">
+            </form>
+        
+    
+      </div>
+    
+    <div class="off-canvas-content" data-off-canvas-content>
+        <button id="menuopen" type="button" class="button" data-toggle="offCanvas"><i class="fa fa-gear" style="font-size:26px;"></i></button>
+    <div class="grid-container">
+        <div id="location" class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+                <p>
+                    <strong id="timezonetitle"></strong><br>
+                    <strong>⌖</strong> <strong id="place">Set your location</strong> 
+                </p>
+            </div>
+          </div>
+
+          <h2>Theese fruit diseases are attacking in the next 7 days:</h2>
+          <div class="week_forecast ">
+            <div class="grid-x grid-padding-x">
+                <div class="large-4 medium-4 small-6 cell">
+                <h3>Day 1</h3>
+                    <div id="0" class="primary callout">
+                        <p><i>Load data by tap/click on your location...</i></p>
+                </div>
+                </div>
+                <div class="large-4 medium-4 small-6 cell">
+                    <h3>Day 2</h3>
+                <div id="1" class="primary callout">
+                    <p><i>Load data by tap/click on your location...</i></p>
+                </div>
+                </div>
+                <div class="large-4 medium-4 small-6 cell">
+                    <h3>Day 3</h3>
+                <div id="2" class="primary callout">
+                    <p><i>Load data by tap/click on your location...</i></p>
+                </div>
+                </div>
+                <div class="large-4 medium-4 small-6 cell">
+                    <h3>Day 4</h3>
+                    <div id="3" class="primary callout">
+                    <p><i>Load data by tap/click on your location...</i></p>
+                    </div>
+                </div>
+                <div class="large-4 medium-4 small-6 cell">
+                    <h3>Day 5</h3>
+                    <div id="4" class="primary callout">
+                    <p><i>Load data by tap/click on your location...</i></p>
+                    </div>
+                </div>
+                <div class="large-4 medium-4 small-6 cell">
+                    <h3>Day 6</h3>
+                    <div id="5" class="primary callout">
+                    <p><i>Load data by tap/click on your location...</i></p>
+                    </div>
+                </div>
+                <div class="large-4 medium-4 small-6 cell">
+                    <h3>Day 7</h3>
+                    <div id="6" class="primary callout">
+                    <p><i>Load data by tap/click on your location...</i></p>
+                    </div>
+                </div>
+                <div id="weatheralerts" class="large-8 medium-8 small-6 cell">
+                    
+                </div> 
+            </div>
+        </div>
+            <center id="disclaimer">
+                <hr/>
+                <i>Please note that the information displayed is for informational purposes only!</i><br>
+                <a href="https://openweathermap.org/"> <img src="css/OpenWeather-Master-Logo RGB.png"> Weather data provided by OpenWeather</a>
+                <br>Created with ❤ by <a href="https://www.linkedin.com/in/sandor-burian"> Sándor Burian</a> for <a href="https://ai.google.dev/competition">Gemini API Developer Competition</a> in 2024 
+            </center>
+        </div>
+
+    </div>
+
+
+    <script src="Foundation-Sites-CSS/js/vendor/jquery.js"></script>
+    <script src="Foundation-Sites-CSS/js/vendor/what-input.js"></script>
+    <script src="Foundation-Sites-CSS/js/vendor/foundation.js"></script>
+    <script src="Foundation-Sites-CSS/js/app.js"></script>
+    <script src="diseases/apple.js"></script>
+    <script src="diseases/apricot.js"></script>
+    <script src="diseases/cherry.js"></script>
+    <script src="diseases/grape.js"></script>
+    <script src="diseases/peach.js"></script>
+    <script src="diseases/pear.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

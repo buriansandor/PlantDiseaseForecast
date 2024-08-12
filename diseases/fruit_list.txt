@@ -1,0 +1,6 @@
+apple
+apricot
+cherry
+grape
+peach
+pear
