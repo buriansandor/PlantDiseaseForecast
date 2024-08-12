@@ -5,3 +5,4 @@ This project was created for <a href="https://ai.google.dev/competition"> Gemini
 
 ***To use the web app you have to get your own Open Weather API key. This is free, you have to register only for the key at [https://openweathermap.org](https://openweathermap.org)***
 
+[Get the User Manual here](documentation/FDF%20user%20manual.pdf)
