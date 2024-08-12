@@ -1,23 +1,27 @@
 # Plant Disease Forecast
 
 
-<center><img src="https://github.com/buriansandor/PlantDiseaseForecast/blob/main/css/Fruit%20disease%20forecast.jpg"></img><br><b><i>Predict, Protect, Prosper: Our web app forecasts fruit diseases using real-time weather data, empowering growers to safeguard their crops and maximize yields.</b></i></center>
+<center><img src="https://github.com/buriansandor/PlantDiseaseForecast/blob/main/css/Fruit%20disease%20forecast.jpg"></img><br><b><i>Predict, Protect, Prosper </b></i> <br>Our web app forecasts fruit diseases using real-time weather data, empowering growers to safeguard their crops and maximize yields.<br></center>
 
-> This web app is designed to forecast plant diseases by analyzing weather conditions, helping growers take timely action to protect their crops. To create this tool, we first compiled a comprehensive Fruit Disease Names dataset, focusing on common diseases affecting apples, apricots, cherries, grapes, peaches, and pears. Leveraging the power of Google AI Studio with Gemini 1.5 I generated detailed disease parameters, which were then stored in a Fruit Disease Dataset. This dataset serves as the foundation for the app’s predictive capabilities.
+> This web app is designed to forecast plant diseases by analyzing weather conditions, helping growers take timely action to protect their crops. 
+>
+> Studies published in [Nature](https://www.nature.com/articles/d41586-023-01465-4) and [other scientific journals](https://www.sciencedaily.com/releases/2023/05/230503121323.htm) reveal that growers worldwide lose an average of 10 to 23 percent of their crops annually to fungal infections, despite the extensive use of fungicides. 
+>
+> To create this tool, we first compiled a comprehensive Fruit Disease Names dataset, focusing on common diseases affecting apples, apricots, cherries, grapes, peaches, and pears. Leveraging the power of Google AI Studio with Gemini 1.5 I generated detailed disease parameters, which were then stored in a Fruit Disease Dataset. This dataset serves as the foundation for the app’s predictive capabilities.
 > 
 > To start using the app, you'll need your own OpenWeather API key, which you can easily obtain for free by registering at [OpenWeatherMap](https://openweathermap.org)). With this free key, our app can pull real-time weather data specific to your location, analyze the conditions, and forecast potential fruit diseases. This empowers you to proactively manage crop health, optimize yields, and reduce losses.
 
 *This project was created for <a href="https://ai.google.dev/competition"> Gemini API Developer Competition</a> in 2024.*
 _________________________________________________________________
 
-| [Get the User Manual here](documentation/FDF%20user%20manual.pdf)   | [YouTube]() |
+| [📖 Get the User Manual here](documentation/FDF%20user%20manual.pdf)   | [🎥 YouTube]() |
 | ------------------------------------------------------------------- |---------------------- |
 _________________________________________________________________
 
 ## Methodology
-The main idea is to forecast plant diseases based on weather conditions. To achieve this I collected the fruit tree diseases from Wikipedia and agriculturar websites in a [Fruit disease names](https://www.kaggle.com/datasets/sndorburian/fruit-tree-disease-names) dataset. 
+The main idea is to forecast plant diseases based on weather conditions. To achieve this I collected the fruit tree diseases from Wikipedia and agriculturar websites in a [Fruit disease names](https://www.kaggle.com/datasets/sndorburian/fruit-tree-disease-names) dataset.
 
-Main source of names:
+Main sources of disease names:
 - https://en.wikipedia.org/wiki/List_of_apple_diseases
 - https://en.wikipedia.org/wiki/List_of_apricot_diseases
 - https://en.wikipedia.org/wiki/List_of_pear_diseases
