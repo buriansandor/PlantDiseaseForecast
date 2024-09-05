@@ -2,7 +2,12 @@
 
 
 <center><img src="https://github.com/buriansandor/PlantDiseaseForecast/blob/main/css/Fruit%20disease%20forecast.jpg"></img><br><b><i>Predict, Protect, Prosper </b></i> <br>Our web app forecasts fruit diseases using real-time weather data, empowering growers to safeguard their crops and maximize yields.<br></center>
+<br><br><br><br>
+  
+<p><center><b>If you like it, please like it on the contest page as well: https://ai.google.dev/competition/projects/fruit-disease-forecast<b></b></center></b><p>
 
+<br><br><br><br>
+  
 > This web app is designed to forecast plant diseases by analyzing weather conditions, helping growers take timely action to protect their crops. 
 >
 > Studies published in [Nature](https://www.nature.com/articles/d41586-023-01465-4) and [other scientific journals](https://www.sciencedaily.com/releases/2023/05/230503121323.htm) reveal that growers worldwide lose an average of 10 to 23 percent of their crops annually to fungal infections, despite the extensive use of fungicides. [In Europe FAO estimates that up to 40% of yields gets lost to pests and diseases every year.](https://croplifeeurope.eu/lets-talk-about-food-waste-and-food-loss/)
